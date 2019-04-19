@@ -1,0 +1,62 @@
+{
+    "zh-cn": [
+        {
+            "name": "Seemmo",
+            "path": "/index"
+        },
+        {
+            "name": "代码规范",
+            "path": "/specification"
+        },
+        {
+            "name": "国际化",
+            "path": "/i18n"
+        },
+        {
+            "name": "参考资料",
+            "path": "/resource",
+            "children": [
+                {
+                    "name": "vue社区",
+                    "path": "/vue"
+                },
+                {
+                    "name": "react社区",
+                    "path": "/react"
+                }
+            ]
+        },
+        {
+            "name": "组件",
+            "path": "/components",
+            "children": [
+                {
+                    "name": "@seemmo/map",
+                    "path": "/map"
+                },
+                {
+                    "name": "table",
+                    "path": "/table"
+                },
+                {
+                    "name": "collapse",
+                    "path": "/collapse"
+                },
+                {
+                    "name": "fileupload",
+                    "path": "/fileupload"
+                }
+            ]
+        }
+    ],
+    "en": [
+        {
+            "name": "Seemmo",
+            "path": "/index"
+        },
+        {
+            "name": "Learning Materials",
+            "path": "/resource"
+        }
+    ]
+}

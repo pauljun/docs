@@ -1,0 +1,213 @@
+.login {
+    width: 100%;
+    height: 100%;
+    background: url(../../assets/images/login/icon_login_bg.png) center center
+        #1c77ac !important;
+    overflow: hidden;
+    .el-input {
+        width: 470px;
+        input {
+            background-color: #062a65;
+            border: solid 1px #4c8df6;
+            color: #ffffff;
+        }
+    }
+    .system-title {
+        vertical-align: middle;
+    }
+
+    .content {
+        position: relative;
+    }
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .login-bg-img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 66%;
+        height: 66%;
+    }
+
+    .login-bg-img-trig {
+        position: absolute;
+        right: 0;
+        top: 26%;
+    }
+
+    .login-bg-img-left {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 80%;
+    }
+
+    .login-icon-sm {
+        vertical-align: middle;
+        height: 50px;
+    }
+
+    .login-view {
+        width: 850px;
+        background-image: url('../../assets/images/login/icon_login_form_bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 656px;
+        margin: 0 auto;
+    }
+
+    .login-header {
+        width: 100%;
+        position: relative;
+        .icon-1 {
+            width: 100%;
+        }
+
+        .icon-2 {
+            position: absolute;
+            top: 126px;
+            left: 176px;
+        }
+    }
+
+    .input-view {
+        position: absolute;
+        bottom: 280px;
+        height: 40px;
+        width: 400px;
+        margin-left: 150px;
+        img {
+            position: absolute;
+            left: 46px;
+            cursor: pointer;
+            z-index: 2;
+            top: 6px;
+            width: 26px;
+            height: 26px;
+        }
+
+        .input {
+            line-height: 32px;
+            position: absolute;
+            width: 320px;
+            left: 40px;
+            font-size: 20px;
+            border: none;
+        }
+
+        input {
+            padding-left: 36px;
+        }
+    }
+
+    .input-view-top {
+        bottom: 350px;
+    }
+
+    .login-view input::-webkit-input-placeholder {
+        color: #d3d3d3;
+        font-size: 17px;
+    }
+
+    .login-view input::-moz-placeholder {
+        color: #d3d3d3;
+        font-size: 17px;
+    }
+
+    .login-view input:-ms-input-placeholder {
+        color: #d3d3d3;
+        font-size: 17px;
+    }
+
+    .input-line {
+        position: absolute;
+        background-color: #d3d3d3;
+        width: 320px;
+        height: 1px;
+        bottom: 0px;
+        margin: 0 40px;
+    }
+    .login-hr {
+        position: absolute;
+        margin-left: 160px;
+        top: 32%;
+        .login_line {
+            width: 537px;
+            height: 2px;
+            background-color: #366fff;
+            position: absolute;
+            bottom: 14px;
+        }
+    }
+
+    .login-title {
+        position: absolute;
+        font-family: YouYuan;
+        color: white;
+        font-size: 24px;
+        margin-left: 160px;
+        top: 21%;
+        img {
+            width: 53px;
+            height: 37px;
+        }
+        .v-line {
+            width: 2px;
+            height: 33px;
+            background-color: white;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .login-btn-view {
+        height: 50px;
+        position: absolute;
+        bottom: 180px;
+        margin-left: 260px;
+    }
+    .login-btn {
+        background: #1874ef;
+        border: 0;
+        font-size: 24px;
+        color: #ffffff;
+        font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif, '宋体';
+        cursor: pointer;
+        width: 320px;
+        border-radius: 4px;
+        &:hover {
+            background: #0fa7ff;
+            color: #ffffff;
+        }
+    }
+    .login-info {
+        height: 30px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        color: red;
+        line-height: 40px;
+    }
+
+    .system-company {
+        position: fixed;
+        bottom: 10px;
+        left: calc((100% - 209px) / 2);
+        height: 40px;
+        vertical-align: middle;
+
+        .system-company-icon {
+            vertical-align: sub;
+        }
+        .system-company-title {
+            color: #fff;
+        }
+    }
+}
